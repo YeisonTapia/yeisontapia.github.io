@@ -1,0 +1,26 @@
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+  html {
+    font-family: 'Space Mono', monospace;
+    font-size: 19px;
+  }
+
+  .container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1, auto;
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .item a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+  }
+
+  .item-a{
+    padding: 0 .17em;
+  }
