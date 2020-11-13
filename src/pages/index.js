@@ -29,7 +29,7 @@ export default function Home() {
         GitHub 
       </a> 
       <a 
-        href="https://github.com/yeisonTapia/" 
+        href="https://twitter.com/yeitapia" 
         className="item-a" 
         target="_blank" 
         rel="noreferrer">
