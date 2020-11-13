@@ -1,8 +1,14 @@
 import React from "react"
 import '../../css/main.css'
+import { Helmet } from "react-helmet"
 
 export default function Home() {
   return <div className="container">
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Yeison Fabian Tapia Lozano</title>
+      <link rel="canonical" href="https://yeisontapia.github.io/" />
+    </Helmet>
     <div className="item">
       <span role="img" aria-label="emojis">
         🇨🇴🧑🏽‍💻
